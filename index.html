@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+  <section id="section1">
+    <nav class="navbar navbar-expand-lg bg-body-transparent">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="index.html" id="productsDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Products
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                <li><a class="dropdown-item" href="index.html">Product 1</a></li>
+                <li><a class="dropdown-item" href="index.html">Product 2</a></li>
+                <li><a class="dropdown-item" href="index.html">Product 3</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="index.html" id="resourcesDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Resources
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
+                <li><a class="dropdown-item" href="index.html">Resource 1</a></li>
+                <li><a class="dropdown-item" href="index.html">Resource 2</a></li>
+                <li><a class="dropdown-item" href="index.html">Resource 3</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Pricing</a>
+            </li>
+          </ul>
+        </div>
+        <div class="btns">
+          <!-- Add your buttons here -->
+          <button type="submit" class="btn btn-outline-dark " style="border-radius: 20px;">login</button>
+          <button type="submit" class="btn btn-dark" style="border-radius: 20px; width: 15vh;">submit</button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col">
+          <p id="title" class="fs-2"><strong>Welcome to our website!</strong></p>
+          <div class="input-field">
+            <input type="search" id="searchInput" placeholder="Search">
+            <button class="btn btn-dark" id="searchButton">Search</button>
+            <ul id="searchSuggestions"></ul>
+          </div>
+        </div>
+        <div class="col">
+          <p class="fs-4">New product features,the latest in technology,solutions and updates</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section>
+    <div class="container">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active cato1" data-bs-toggle="pill" href="#tab1">View all</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link cato1" data-bs-toggle="pill" href="#tab2">Designs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link cato1" data-bs-toggle="pill" href="#tab3">Product</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link cato1" data-bs-toggle="pill" href="#tab4">Development</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link cato1" data-bs-toggle="pill" href="#tab5">Management</a>
+        </li>
+      </ul>
+    </div>
+    <div class="container mt-5" id="tabContentContainer">
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="tab1">
+          <!-- Card elements -->
+        </div>
+
+        <div class="tab-pane" id="tab2">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <div class="image-container">
+                    <img src="./assets/img/249383_00_2x.jpg" class="card-img-top img-fluid" alt="Image">
+                    <div class="image-caption">
+                      <p class="mt fs-6 caption-name" style="font-weight:bold;">Olivia Rhye</p>
+                      <p class="fs-6 caption-date" style="font-weight:bold;">12 Apr 2023</p>
+                    </div>
+                  </div>
+                  <h4 class="card-title mt-3" style="text-decoration: underline;">UX review presentation</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae odio eget
+                    velit tristique bib</p>
+                  <a href="#" class="btn btn-primary" id="read-more-1">Read more</a>
+
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <div class="image-container">
+                    <img src="./assets/img/1000_F_297068539_hfhoZWzjPEYoHWHQ4fKZ4GFr3dBbhNKF.jpg"
+                      class="card-img-top img-fluid" alt="Image">
+                    <div class="image-caption">
+                      <p class="mt fs-6 caption-name" style="font-weight:bold;">Olivia Rhye</p>
+                      <p class="fs-6 caption-date" style="font-weight:bold;">12 Apr 2023</p>
+                    </div>
+                  </div>
+                  <h4 class="card-title mt-3" style="text-decoration: underline;">Design</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae odio eget
+                    velit tristique bib</p>
+                  <a href="#" class="btn btn-primary" id="read-more-1">Read more</a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="tab-pane" id="tab3">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <div class="image-container">
+                    <img
+                      src="https://newsroom.plusatlas.com/uploads/medium/000/000/755/content_safe_Mac1-2a60efbf-8322-468d-93a7-306d1e57380f.jpg"
+                      class="card-img-top img-fluid" alt="Image">
+                    <div class="image-caption">
+                      <p class="mt fs-6 caption-name" style="font-weight:bold;">Olivia Rhye</p>
+                      <p class="fs-6 caption-date" style="font-weight:bold;">12 Apr 2023</p>
+                    </div>
+                  </div>
+                  <h4 class="card-title mt-3" style="text-decoration: underline;"> Laptop</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae odio eget
+                    velit tristique bib</p>
+                  <a href="#" class="btn btn-primary" id="read-more-1">Read more</a>
+
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <div class="image-container">
+                    <img src="https://i.pinimg.com/736x/de/fa/93/defa9372cc37ea3ce864487e82a7966e.jpg"
+                      class="card-img-top img-fluid" alt="Image">
+                    <div class="image-caption">
+                      <p class="mt fs-6 caption-name" style="font-weight:bold;">Olivia Rhye</p>
+                      <p class="fs-6 caption-date" style="font-weight:bold;">12 Apr 2023</p>
+                    </div>
+                  </div>
+                  <h4 class="card-title mt-3" style="text-decoration: underline;">Wireless earbuds</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae odio eget
+                    velit tristique bib</p>
+                  <a href="#" class="btn btn-primary" id="read-more-1">Read more</a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="tab-pane" id="tab4">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <div class="image-container">
+                    <img
+                      src="https://cdn.dribbble.com/userupload/8415773/file/original-1e3cc2fa4822c52905ae2e9ae37cdac0.png?compress=1&resize=752x"
+                      class="card-img-top img-fluid" alt="Image">
+                    <div class="image-caption">
+                      <p class="mt fs-6 caption-name" style="font-weight:bold;">Olivia Rhye</p>
+                      <p class="fs-6 caption-date" style="font-weight:bold;">12 Apr 2023</p>
+                    </div>
+                  </div>
+                  <h4 class="card-title mt-3" style="text-decoration: underline;"> Website Landing Page</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae odio eget
+                    velit tristique bib</p>
+                  <a href="#" class="btn btn-primary" id="read-more-1">Read more</a>
+
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <div class="image-container">
+                    <img
+                      src="https://cdn.dribbble.com/userupload/4925719/file/original-93bff3b1e43427e5b34f58bc2bc4b7de.png?compress=1&resize=1504x1128"
+                      class="card-img-top img-fluid" alt="Image">
+                    <div class="image-caption">
+                      <p class="mt fs-6 caption-name" style="font-weight:bold;">Olivia Rhye</p>
+                      <p class="fs-6 caption-date" style="font-weight:bold;">12 Apr 2023</p>
+                    </div>
+                  </div>
+                  <h4 class="card-title mt-3" style="text-decoration: underline;">Landing Page</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae odio eget
+                    velit tristique bib</p>
+                  <a href="#" class="btn btn-primary" id="read-more-1">Read more</a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane" id="tab5">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <div class="image-container">
+                    <img
+                      src="https://img.freepik.com/free-photo/guy-shows-document-girl-group-young-freelancers-office-have-conversation-working_146671-13569.jpg?w=900&t=st=1688935352~exp=1688935952~hmac=a33df4cdee82a6eac7e1f8a116fb5f6c65637c0174ec95776dffd22e5807da97"
+                      class="card-img-top img-fluid" alt="Image">
+                    <div class="image-caption">
+                      <p class="mt fs-6 caption-name" style="font-weight:bold;">Olivia Rhye</p>
+                      <p class="fs-6 caption-date" style="font-weight:bold;">12 Apr 2023</p>
+                    </div>
+                  </div>
+                  <h4 class="card-title mt-3" style="text-decoration: underline;"> Team management</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae odio eget
+                    velit tristique bib</p>
+                  <a href="#" class="btn btn-primary" id="read-more-1">Read more</a>
+
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <div class="image-container">
+                    <img
+                      src="https://img.freepik.com/premium-photo/business-place-be-shot-businesspeople-having-meeting-office_590464-7815.jpg?w=900"
+                      class="card-img-top img-fluid" alt="Image">
+                    <div class="image-caption">
+                      <p class="mt fs-6 caption-name" style="font-weight:bold;">Olivia Rhye</p>
+                      <p class="fs-6 caption-date" style="font-weight:bold;">12 Apr 2023</p>
+                    </div>
+                  </div>
+                  <h4 class="card-title mt-3" style="text-decoration: underline;">Business Management</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae odio eget
+                    velit tristique bib</p>
+                  <a href="#" class="btn btn-primary" id="read-more-1">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <!-- Modal -->
+    <div class="modal" id="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal header -->
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal-title"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <!-- Modal body -->
+          <div class="modal-body">
+            <p id="modal-date"></p>
+            <p id="modal-description"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section>
+    <!-- Footer -->
+    <footer id="mainFooter" class="py-5 bg-dark text-white">
+      <div class="container py-md-5">
+        <div class="row justify-content-between align-items-center gy-3">
+          <div class="col-sm-12 col-md-6 text-center text-md-start mb-3">
+            <!-- Content for the left side of the footer -->
+            <p>&copy; 2023 Your Company. All rights reserved.</p>
+          </div>
+          <div class="col-sm-12 col-md-6 text-center text-md-end">
+            <!-- Content for the right side of the footer -->
+            <ul class="list-inline">
+              <li class="list-inline-item"><a href="#">Terms of Service</a></li>
+              <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+              <li class="list-inline-item"><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </section>
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
